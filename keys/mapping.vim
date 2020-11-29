@@ -1,7 +1,7 @@
 " Mapping leader key
 
 nnoremap <SPACE> <Nop>
-let mapleader=" "
+let mapleader=","
 
 
 
