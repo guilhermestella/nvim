@@ -12,6 +12,7 @@ Plug 'wadackel/vim-dogrun'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
 " Automatically install missing plugins on startup

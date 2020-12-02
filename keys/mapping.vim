@@ -1,5 +1,7 @@
-" Mapping leader key
 
+
+
+" Mapping leader key
 nnoremap <SPACE> <Nop>
 let mapleader=","
 
@@ -9,6 +11,14 @@ let mapleader=","
 nnoremap <leader>; A;<esc>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <leader>ev :e ~/.config/nvim/init.vim<cr>
+
+
+
+" Tab Navigation
+nnoremap <A-h> :tabp<CR>
+nnoremap <A-l> :tabn<CR>
+nnoremap <C-t> :bw<CR>
+nnoremap tt  :tabedit<Space>
 
 
 " Disable arrows

@@ -12,6 +12,7 @@
         "java"
     ],
     "coc.preferences.hoverTarget": "float",
+    "coc.preferences.jumpCommand": "tab drop",
     // java preferences
     "codeLens.enable": true,
     "java.referencesCodeLens.enabled": true,
