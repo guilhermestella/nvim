@@ -1,11 +1,15 @@
+syntax on                               " Enables syntax highlighing
+
+filetype on
+filetype indent on
+filetype plugin indent on
+
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set formatoptions-=cro                  " Stop newline continution of comments
-
-syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
-" set whichwrap+=<,>,[,],h,l
 set encoding=utf-8                      " The encoding displayed
+set nohlsearch                          " turns off the search highligh
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
 set ruler         			            " Show the cursor position all the time

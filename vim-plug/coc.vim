@@ -1,5 +1,8 @@
+" Coc plugins
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-tsserver', 'coc-yaml', 'coc-java']
+
 " Specific nodenv path
-let g:coc_node_path = '~/.nodenv/shims/node' 
+let g:coc_node_path = '/home/guistella/.nodenv/shims/node' 
 
 
 " TextEdit might fail if hidden is not set.
