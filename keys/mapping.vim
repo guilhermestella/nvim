@@ -17,8 +17,8 @@ nnoremap <leader>ev :e ~/.config/nvim/init.vim<cr>
 " Tab Navigation
 nnoremap <A-h> :tabp<CR>
 nnoremap <A-l> :tabn<CR>
-nnoremap <C-t> :bw<CR>
-nnoremap tt  :tabedit<Space>
+nnoremap <A-j> :bw<CR>
+nnoremap <A-k> :tabedit<Space>
 
 
 " Disable arrows
