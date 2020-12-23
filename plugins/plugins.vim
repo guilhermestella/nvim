@@ -8,8 +8,7 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'jiangmiao/auto-pairs'
-" Plug 'wadackel/vim-dogrun'
-Plug 'ayu-theme/ayu-vim'
+Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
