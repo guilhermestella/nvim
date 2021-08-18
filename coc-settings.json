@@ -19,7 +19,7 @@
     "java.implementationsCodeLens.enabled": true,
     "java.completion.enabled": true,
     "java.jdt.ls.vmargs": "-javaagent:/usr/local/lib/java/lombok.jar",
-    "java.home": "/usr/local/lib/java/jdk-13.0.1",
+    "java.home": "/usr/local/lib/java/jdk-15",
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-1.8",
@@ -32,6 +32,11 @@
         {
             "name": "JavaSE-13",
             "path": "~/.jenv/versions/13.0.1",
+            "default": true
+        },
+        {
+            "name": "JavaSE-15",
+            "path": "~/.jenv/versions/15",
             "default": true
         }
     ]
