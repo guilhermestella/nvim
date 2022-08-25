@@ -3,7 +3,7 @@ let g:lightline = {
             \   'filename': 'LightlineFilename',
             \   'gitbranch': 'gitbranch#name'
             \     },
-            \ 'colorscheme': 'dracula',
+            \ 'colorscheme': 'onehalfdark',
             \ 'active': {
             \   'left': [ [ 'mode', 'paste' ],
             \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
