@@ -10,4 +10,5 @@ source $HOME/.config/nvim/keys/mapping.vim
 " Plugins & Themes
 source $HOME/.config/nvim/plugins/onehalf.vim
 source $HOME/.config/nvim/plugins/lightline.vim
+source $HOME/.config/nvim/plugins/coc.vim
 source $HOME/.config/nvim/plugins/expand-region.vim

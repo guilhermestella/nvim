@@ -1,0 +1,43 @@
+{
+    // autoformat
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "markdown",
+        "javascript",
+        "graphql",
+        "html",
+        "yaml",
+        "json",
+        "python",
+        "java"
+    ],
+    "coc.preferences.hoverTarget": "float",
+    "coc.preferences.jumpCommand": "tab drop",
+    // java preferences
+    "codeLens.enable": true,
+    "java.referencesCodeLens.enabled": true,
+    "java.implementationsCodeLens.enabled": true,
+    "java.completion.enabled": true,
+    "java.jdt.ls.vmargs": "-javaagent:/usr/local/lib/java/lombok.jar",
+    "java.home": "/usr/local/lib/java/jdk-15",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "~/.jenv/versions/1.8.0.211"
+        },
+        {
+            "name": "JavaSE-9",
+            "path": "~/.jenv/versions/9.0.4"
+        },
+        {
+            "name": "JavaSE-13",
+            "path": "~/.jenv/versions/13.0.1",
+            "default": true
+        },
+        {
+            "name": "JavaSE-15",
+            "path": "~/.jenv/versions/15",
+            "default": true
+        }
+    ]
+}
