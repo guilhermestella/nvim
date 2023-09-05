@@ -9,7 +9,6 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'jiangmiao/auto-pairs'
 Plug 'dracula/vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 Plug 'preservim/nerdcommenter'
